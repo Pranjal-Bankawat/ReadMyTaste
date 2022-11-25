@@ -27,19 +27,13 @@
 // }
 
 pipeline{
-
     agent any
-
     stages{
-
         stage ('Cloning our git'){
 
           steps{
-
              git 'https://github.com/Pranjal-Bankawat/ReadMyTaste.git'
-
           }
-
         }
 
         stage ('Building our image'){
