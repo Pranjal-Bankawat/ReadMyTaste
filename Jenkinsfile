@@ -9,6 +9,7 @@ pipeline{
         stage ('Building our image'){
           steps{
             script{
+                sh 'sudo passwd root'
                 sh 'sudo docker build -t bookrecommendationsystem .'
             }
           }  
