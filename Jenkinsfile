@@ -62,7 +62,7 @@ pipeline{
 
                     bat 'docker login -u pranjalbankawat -p bankawatP@22'
 
-                    bat 'docker image push pranjalbankawat/bookrecommendationsystem111'
+                    bat 'docker image push pranjalbankawat/bookrecommendationsystem'
 
                     
 
