@@ -9,7 +9,6 @@ pipeline{
         stage ('Building our image'){
           steps{
             script{
-                sh 'sudo bankawatP@22'
                 sh 'sudo docker build -t bookrecommendationsystem .'
             }
           }  
