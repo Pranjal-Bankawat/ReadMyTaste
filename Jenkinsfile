@@ -42,7 +42,7 @@ pipeline{
 
             script{
 
-                sh 'sudo docker build -t pranjalbankawat/bookrecommendationsystem .'
+                sh'docker build -t pranjalbankawat/bookrecommendationsystem .'
 
                 // docerImage = dock÷er.build registry + ":$BUILD_NUMBER"
 
