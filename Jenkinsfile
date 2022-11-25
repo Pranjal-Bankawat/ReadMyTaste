@@ -9,7 +9,7 @@ pipeline{
         stage ('Building our image'){
           steps{
             script{
-                sh 'docker build -t bookrecommendationsystem .'
+                sh 'sudo docker build -t bookrecommendationsystem .'
             }
           }  
 
