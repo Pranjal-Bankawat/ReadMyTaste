@@ -48,7 +48,7 @@ pipeline{
 
             script{
 
-                sh 'docker build -t pranjalbankawat/bookrecommendationsystem .'
+                sh 'sudo docker build -t pranjalbankawat/bookrecommendationsystem .'
 
                 // docerImage = dock÷er.build registry + ":$BUILD_NUMBER"
 
@@ -68,7 +68,7 @@ pipeline{
 
                     sh 'docker login -u pranjalbankawat -p bankawatP@22'
 
-                    sh 'docker image push mahima08/bookrecommendationsystem111'
+                    sh 'docker image push pranjalbankawat/bookrecommendationsystem111'
 
                     
 
