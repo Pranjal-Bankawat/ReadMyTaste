@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage ('Cloning our git'){
           steps{
-             git 'https://github.com/Mahima-Nayak/ReadMyTaste.git'
+             git 'https://github.com/Pranjal-Bankawat/ReadMyTaste.git'
           }
         }
         stage ('Building our image'){
