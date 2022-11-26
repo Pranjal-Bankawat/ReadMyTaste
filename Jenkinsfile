@@ -22,9 +22,6 @@ pipeline{
             }
 
           }  
-
-
-
         }
 
         stage('Deploy our image') {
